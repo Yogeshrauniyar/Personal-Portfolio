@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Yogesh Rauniyar</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<style>
+    .social a {
+    margin: 0 10px;
+    color: white;             /* Makes the icons white */
+    font-size: 24px;          /* Adjust icon size */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social a:hover {
+    color: #00aced;           /* Optional hover color */
+}
+
+.footer-socials a {
+    color: #3DCFD3;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #ffffff; /* Optional: change color on hover */
+}
+
+p {
+    max-width: 1000px;        /* Adjust to control width */
+    line-height: 1.6;        /* Improves readability */
+    word-break: break-word;
+    margin: 0 auto;
+    text-align: center;      /* Optional: center align */
+}
+
+.project {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover; /* Or use 'contain' if you don’t want any cropping */
+}
+
+</style>
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamberger.svg" alt="">
+        </button>
+
+        <div class="mobile-nav">
+            <button class="times"><img src="./images/times.svg" alt=""></button>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#work">Projects</a></li>
+                <!-- <li><a href="#">Blog</a></li> -->
+            </ul>
+        </div>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo.png" alt="" style="height: 68px; margin-right: 25px;">
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#services">Skills</a>
+                            <a href="#work">Projects</a>
+                            <!-- <a href="#blog">Blog</a> -->
+                        </div>
+                    </div>
+                    <div class="right">
+                        <a href="#contact"><button class="btn btn-primary" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">Contact</button></a>
+
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/man.png" alt="">
+                    </div>
+                    <div class="right flex-1">
+                        <h6>Yogesh Rauniyar</h6>
+                        <h1>I’m a Tech <span>Enthusiast</span></h1>
+                        <p style="text-align: justify;">I’m passionate about building things — whether it’s full stack applications, exploring AI tools, or automating tasks that make life easier. I don’t limit myself to one area of tech; I’m still exploring what excites me most.
+
+My journey so far includes working on diverse projects, learning new technologies, and constantly experimenting to sharpen my skills. I believe in growth through hands-on experience, creative problem-solving, and staying curious.</p>
+                        <div>
+                            <!-- <button class="btn btn-secondary">DOWNLOAD CV</button> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <!-- <div class="flex-1">
+                    <img class="about-me-img" src="./images/man-2.png" alt="">
+                </div> -->
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Heyy! I’m Yogesh Rauniyar</h3>
+                    <p style="text-align: justify; margin: 0px; padding: 0px; margin-bottom: 20px;">I’m a tech enthusiast who thrives on curiosity, creativity, and continuous learning. With a keen interest in software development, automation, AI, and system design, I’m constantly seeking new challenges that push me to think critically and build smarter solutions. I believe technology is a powerful tool to solve real-world problems, and I enjoy being hands-on — whether that means designing intuitive interfaces, writing scalable backend logic, or experimenting with machine learning models.
+
+While I haven’t boxed myself into one specific niche yet, I see that as a strength. Exploring different areas in tech has given me a versatile mindset and a broad skillset. I’m currently diving deeper into areas like full stack development, cloud technologies, and generative AI to see where I can create the most impact.
+
+Beyond code, I’m also deeply involved in student communities. I’ve taken up leadership roles, helped organize tech events and hackathons, and guided fellow students — especially international peers — as they navigate academic and technical challenges. I believe in collaboration, open learning, and making the tech space more inclusive and accessible.
+
+My journey is far from over, and I’m excited for the road ahead — filled with opportunities to learn, contribute, and build meaningful products.
+
+
+
+When I’m not coding, I’m probably planning events, collaborating on ideas, or helping other students in tech communities.</p>
+                    <div class="social">
+                        <a href="https://in.linkedin.com/in/yogeshrauniyar" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/yogeshrauniyar" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:imailyogeshrauniyar@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="container">
+                <h1 class="section-heading"><span>Skills & </span> Tools</h1>
+                <p>Here’s a broad look at the skills I’ve gained — from coding and development tools to communication, collaboration, and leadership. I’m continuously learning and evolving to grow both technically and professionally.</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/code.svg" alt="">
+                        <h2>Programming Languages</h2>
+                        <p>Java, Python, SQL</p>
+                    </div>
+                    
+                    <div class="card">
+                        <img src="./images/desktop.svg" alt="">
+                        <h2>Web Development</h2>
+                        <p>HTML, CSS, JavaScript, React.js, Node.js, Express.js
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/database.svg" alt="">
+                        <h2>Databases</h2>
+                        <p>MySQL, MongoDB
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/ai.svg" alt="">
+                        <h2>AI & Machine Learning</h2>
+                        <p>OpenCV, PyTorch (learning), Deep Learning Basics
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/brush.svg" alt="">
+                        <h2>Tools & Platforms</h2>
+                        <p>Git, GitHub, Figma, WordPress, Docker (learning)
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/skills.svg" alt="">
+                        <h2>Soft Skills & Teamwork</h2>
+                        <p>Problem Solving, Communication, Leadership
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="freelancer">
+            <h1>I’m Open to Opportunities</h1>
+            <p>Whether it's freelance work, collaborations, or exciting tech roles — I’m open to working on meaningful projects that align with my skills and passion for building clean, efficient digital solutions</p>
+            <!-- <button class="btn btn-primary">Download CV</button> -->
+        </section>
+        <!-- <section class="reviews">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Client</h1>
+                <p>We provide high standar clean website for your business solutions</p>
+                <div class="slider">
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                    <div class="slide">
+                        <img src="./images/lady.png" alt="">
+                        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                            mollit anim id est laborum"</p>
+                        <span>- John Doel, Company ABC</span>
+                    </div>
+                </div>
+                <div class="slider-dots"></div>
+            </div>
+        </section> -->
+
+        <section id="work" class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>My</span> Projects</h1>
+                <p>Here are few projects I’ve built — from full stack applications to experimental tools. Each one reflects what I’ve learned so far and my passion for solving problems through code.
+Click any project to explore the code on GitHub.</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="overlay" onclick="window.open('https://github.com/Yogeshrauniyar/College-Clubs-Website.git', '_blank')">
+                            <h3>College Club Website</h3>
+                            <!-- <span>Category</span>
+                            <a href="#">Web development</a> -->
+                        </div>
+                        <img src="./images/project_1.png" alt="" class="project">
+                    </div>
+                    <div class="card">
+                        
+                    
+                        <div class="overlay" onclick="window.open('https://github.com/Yogeshrauniyar/Ecommerce-Java-Project.git', '_blank')">
+                            
+                            <h3 style="text-align: center;">Shopmate Ecommerce Website</h3>
+                            <!-- <span>Category</span>
+                            <a href="#">Web development</a> -->
+                        </div>
+
+
+                        <img src="./images/project_2.png" alt="" class="project">
+                    </div>
+                    <div class="card">
+                        <div class="overlay" onclick="window.open('https://yogeshrauniyar.com.np', '_blank')">
+                            <h3>Personal Portfolio Website</h3>
+                            <!-- <span>Category</span>
+                            <a href="#">Web development</a> -->
+                        </div>
+                        <img src="./images/project_3.png" alt="" class="project">
+                    </div>
+                    <!-- <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div>
+                    <div class="card">
+                        <div class="overlay">
+                            <span>Category</span>
+                            <a href="#">Web development</a>
+                        </div>
+                        <img src="./images/ph-1.png" alt="">
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- <section id="blog" class="blog">
+            <div class="container">
+                <h1 class="section-heading"><span>Our</span> Blog</h1>
+                <p>We provide high standar clean website for your business solutions</p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus et iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt
+                                mollit anim id est laborum.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus et iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt
+                                mollit anim id est laborum.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="img-wrapper">
+                            <img src="./images/article-ph-1.png" alt="">
+                        </div>
+                        <div class="card-content">
+                            <a href="#">
+                                <h1>Occusamus et iusto odio</h1>
+                            </a>
+                            <span>May 12, 2017</span>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                                nulla
+                                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                                deserunt
+                                mollit anim id est laborum.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <!-- <h1 class="section-heading">Contact <span>Me</span></h1>
+                <p>We provide high standar clean website for your business solutions</p> -->
+               <div class="card-wrapper">
+                    <!-- <div class="card">
+                        <i class="fas fa-phone fa-2x"></i>
+                        <h1>Call Me On</h1>
+                        <h6>+985 123 7856</h6>
+                    </div> -->
+                    <div class="card">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <h1>Email Me At</h1>
+                        <a href="mailto:imailyogeshrauniyar@gmail.com" style="text-decoration: none;"><h6>
+                        imailyogeshrauniyar@gmail.com</h6></a>
+
+                        
+                    </div>
+                    <!-- <div class="card">
+                        <i class="fas fa-map-marker-alt fa-2x"></i>
+                        <h1>Visit Office</h1>
+                        <h6>99 S.t Jomblo Park Pekanbaru 28292. Indonesia</h6>
+                    </div> -->
+                </div>
+
+                <!-- <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name *">
+                        <input type="email" placeholder="Your Email *">
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Your Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+                </form> -->
+            </div>
+        </section>
+        <footer>
+            <img class="footer-logo" src="./images/logo.png" alt="" style="height: 80px; width: auto;">
+            <div class="footer-socials">
+                <a href="https://in.linkedin.com/in/yogeshrauniyar" target="_blank" rel="noopener">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/yogeshrauniyar" target="_blank" rel="noopener">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:imailyogeshrauniyar@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+            </div>
+            <div class="copyright">
+                Copyright 2025 © Yogesh Rauniyar
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
